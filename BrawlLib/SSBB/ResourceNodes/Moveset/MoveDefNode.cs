@@ -3486,7 +3486,7 @@ namespace BrawlLib.SSBB.ResourceNodes
         {
             if (_name == null)
             {
-                _name = "MoveDef_" + Parent.Name;
+                _name = "MoveDef_" + (Parent?.Name ?? "Root");
             }
 
             nodeDictionary = new SortedDictionary<int, MoveDefEntryNode>();
