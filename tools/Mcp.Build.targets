@@ -1,0 +1,8 @@
+<Project>
+  <!-- Imported after Microsoft.Common targets only by tools/build-mcp.ps1.
+       Keep normal project builds unchanged. The legacy hooks terminate other
+       application instances and remove outputs, so packaging replaces them
+       with explicit copies into a fresh staging directory. -->
+  <Target Name="PreBuild" />
+  <Target Name="PostBuild" />
+</Project>

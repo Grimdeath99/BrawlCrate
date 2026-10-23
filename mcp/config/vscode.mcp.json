@@ -1,0 +1,13 @@
+{
+  "servers": {
+    "brawlcrate": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "C:/Tools/BrawlCrate-MCP/server/server.mjs",
+        "--root",
+        "C:/BrawlMods"
+      ]
+    }
+  }
+}

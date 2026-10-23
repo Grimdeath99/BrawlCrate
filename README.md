@@ -20,3 +20,9 @@ Join the [Brawl Knowledge Compendium Discord](https://discord.gg/s7c8763) to tal
 Older versions can be found on the [BrawlCrate-deprecated repository](https://github.com/soopercool101/BrawlCrate-deprecated).
 
 Documentation for the latest version to be used with the API can be found [here](https://soopercool101.github.io/BrawlCrate/).
+
+Local Model Context Protocol (MCP) support for scoped ARC/MSBin inspection, editing,
+and export is available through a dedicated BrawlLib worker. See the
+[MCP setup, capability catalogue, and limitations](docs/mcp.md) and
+[verification report](docs/mcp-verification.md). The desktop editor starts normally
+without MCP unless the separate server is launched.

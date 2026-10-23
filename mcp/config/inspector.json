@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "brawlcrate": {
+      "command": "node",
+      "args": [
+        "C:/Tools/BrawlCrate-MCP/server/server.mjs",
+        "--root",
+        "C:/BrawlMods"
+      ]
+    }
+  }
+}

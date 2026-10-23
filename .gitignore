@@ -89,6 +89,7 @@ csx
 AppPackages/
 
 # Others
+Test
 [Bb]in
 [Oo]bj
 sql
@@ -130,3 +131,8 @@ BrawlLib/InternalDocumentation/Module/maps/*.map
 BrawlCrate/API/Lib/*
 BrawlCrate/API/Loaders/*
 BrawlCrate/API/Plugins/*
+
+# Local MCP dependencies, build packages and verification evidence
+.cache/
+artifacts/
+node_modules/
